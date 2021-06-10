@@ -6,7 +6,9 @@ SECTION = "libs"
 LICENSE = "BSD-3-Clause | GPLv3"
 LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=7c3949a631240cb6c31c50f3eb696077"
 
-SRC_URI = "git://github.com/signal11/hidapi.git"
+SRC_URI = "git://github.com/signal11/hidapi.git \
+file://0001-configure.ac-remove-duplicate-AC_CONFIG_MACRO_DIR-22.patch \
+"
 SRCREV = "a6a622ffb680c55da0de787ff93b80280498330f"
 
 PV = "0.8.0-rc1-git.${SRCPV}"
